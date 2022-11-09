@@ -4,12 +4,12 @@
 Project aplikasi ini hanya untuk submission kelas Menjadi Front-end Web Developer Expert Dicoding, segala bentuk plagiarisme akan otomatis terdeteksi jika menggunakan project aplikasi ini untuk submission. Diharapkan project ini digunakan sebagai referensi belajar dan bukan untuk copy-paste project submission!!!
      
 # Screenshot
-<!-- <img src="https://user-images.githubusercontent.com/96803344/169085569-759ba8ff-c3f1-4eba-8b44-6f481061a25a.PNG"
+<img src="https://user-images.githubusercontent.com/96803344/169085569-759ba8ff-c3f1-4eba-8b44-6f481061a25a.PNG"
      style="float: center; margin-right: 10px;"
      width="900" />
 <img src="https://user-images.githubusercontent.com/96803344/169085711-77d48e91-117a-4730-9bfc-ff936922f8bb.PNG"
      style="float: center; margin-right: 10px;"
-     width="900" /> -->
+     width="900" />
 
 ## Features
 #### Submission Checklists
