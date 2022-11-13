@@ -1,6 +1,6 @@
 {
-  "name": "restaurant-apps",
-  "version": "1.0.0",
+  "name": "andi-restaurant",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "lint": "eslint ./src/scripts"
   },
   "keywords": [],
-  "author": "Ibnu_Choldun ibnucholdun023@gmail.com",
+  "author": "",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.10.5",

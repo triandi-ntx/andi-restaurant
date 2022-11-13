@@ -1,7 +1,6 @@
+/* eslint-disable import/named */
 import FavoriteRestaurantIdb from '../../data/favoriterestaurant-db';
-import {
-  createRestaurantItemTemplate,
-} from '../templates/template-creator';
+import createRestaurantItemLayout from '../templates/item-layout';
 
 const Favorite = {
   async render() {
@@ -17,7 +16,7 @@ const Favorite = {
     const restaurants = await FavoriteRestaurantIdb.getAllRestaurant();
     const restaurantContainer = document.getElementById('explore-restaurant-list');
     restaurants.forEach((restaurant) => {
-      restaurantContainer.innerHTML += createRestaurantItemTemplate(restaurant);
+      restaurantContainer.innerHTML += createRestaurantItemLayout(restaurant);
     });
 
     const skipLinkElem = document.querySelector('.skip-link');

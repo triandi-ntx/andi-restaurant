@@ -1,11 +1,17 @@
 import 'regenerator-runtime'; /* for async await transpile */
-import './components/nav-bar';
-import './components/hero';
-import './components/footer-custom';
+// css
 import '../styles/main.css';
 import '../styles/root.css';
 import '../styles/footer.css';
+import '../styles/spinner.css';
+import '../styles/utils.css';
 import '../styles/responsive.css';
+
+// components
+import './components/nav-bar';
+import './components/hero';
+import './components/footer-custom';
+// js
 import App from './views/app';
 import swRegister from './utils/sw-register';
 

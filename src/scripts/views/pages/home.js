@@ -1,14 +1,13 @@
+/* eslint-disable import/named */
+import Spinner from '../templates/spinner';
 import RestaurantSource from '../../data/restaurant-source';
-import {
-  createRestaurantItemTemplate,
-  loading,
-} from '../templates/template-creator';
+import createRestaurantItemLayout from '../templates/item-layout';
 
 const Home = {
   async render() {
     return `
         <div>
-          <div id="indikator-loading"></div>
+        <div id="loading"></div>
           <div class="main">
             <h2 tabindex="0" class="explore-restaurant__label">List Restaurant</h2>
             <section id="explore-restaurant-list"></section>
@@ -18,9 +17,9 @@ const Home = {
   },
 
   async afterRender() {
-    const indikatorLoading = document.getElementById('indikator-loading');
+    const loading = document.querySelector('#loading');
     const mainContainer = document.getElementsByClassName('main');
-    indikatorLoading.innerHTML = loading();
+    loading.innerHTML = Spinner();
     mainContainer.innerHTML = '';
     const restaurantContainer = document.getElementById('explore-restaurant-list');
     restaurantContainer.innerHTML = '';
@@ -28,11 +27,11 @@ const Home = {
     try {
       const listRestaurant = await RestaurantSource.getRestaurants();
       listRestaurant.forEach((restaurant) => {
-        restaurantContainer.innerHTML += createRestaurantItemTemplate(restaurant);
+        restaurantContainer.innerHTML += createRestaurantItemLayout(restaurant);
       });
-      indikatorLoading.style.display = 'none';
+      loading.style.display = 'none';
     } catch (error) {
-      indikatorLoading.style.display = 'none';
+      loading.style.display = 'none';
       restaurantContainer.innerHTML = `<h3 class="error">Error: ${error.message}</h3>`;
     }
   },

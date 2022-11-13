@@ -2,7 +2,8 @@ import FavoriteRestaurantIdb from '../data/favoriterestaurant-db';
 import {
   createLikeButtonTemplate,
   createLikedButtonTemplate,
-} from '../views/templates/template-creator';
+// eslint-disable-next-line import/no-unresolved
+} from '../views/templates/like-button';
 
 const LikeButtonInitiatior = {
   async init({

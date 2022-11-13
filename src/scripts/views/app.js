@@ -1,4 +1,4 @@
-import DrawerInitiator from '../utils/drawerInitiator';
+import DrawerInitiator from '../utils/drawer-Initiator';
 import DarkMode from '../utils/dark-mode';
 import UrlParser from '../routes/url-parser';
 import routes from '../routes/routes';

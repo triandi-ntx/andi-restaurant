@@ -23,10 +23,8 @@ const PostReview = async () => {
     <div class="detail-review-item">
       <div class="header-review">
         <p class="name-review">${dataInput.name}</p>
-
         <p class="date-review">${date}</p>
       </div>
-
       <div class="body-review">
         ${dataInput.review}
       </div>
