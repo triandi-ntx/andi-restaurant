@@ -1,7 +1,7 @@
 {
     "name": "Andi Restaurant ",
-    "short_name": "Andi Restauran",
-    "description": "Andi restaurant not only serves delicious food but also serves refreshing drinks!",
+    "short_name": "Andi Restaurant",
+    "description": "Our restaurant not only serves delicious food but also serves refreshing drinks!",
     "start_url": "/index.html",
     "display": "standalone",
     "background_color": "#ffffff",
@@ -38,7 +38,7 @@
         "purpose": "any maskable"
       },
       {
-        "src": "/icons/192x192.png",
+        "src": "/icons/256x256.png",
         "sizes": "256x256",
         "type": "image/png",
         "purpose": "any maskable"
