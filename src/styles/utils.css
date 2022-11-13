@@ -257,7 +257,7 @@
     .like:hover {
       cursor: pointer;
       background-color:#ada41b ;
-      color: var(--primary-color);
+      color: var(--secondary-color);
       transition: ease 1s;
     }
     
