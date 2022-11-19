@@ -1,18 +1,13 @@
-import FavoriteRestaurantIdb from '../data/favoriterestaurant-db';
 import {
-  createLikeButtonTemplate,
-  createLikedButtonTemplate,
-// eslint-disable-next-line import/no-unresolved
+  createLikeRestaurantButtonTemplate,
+  createUnlikeRestaurantButtonTemplate,
 } from '../views/templates/like-button';
 
-const LikeButtonInitiatior = {
-  async init({
-    likeButtonContainer,
-    restaurant,
-  }) {
+const LikeButtonPresenter = {
+  async init({ likeButtonContainer, favoriteRestaurants, restaurant }) {
     this._likeButtonContainer = likeButtonContainer;
     this._restaurant = restaurant;
-
+    this._favoriteRestaurants = favoriteRestaurants;
     await this._renderButton();
   },
 
@@ -29,29 +24,29 @@ const LikeButtonInitiatior = {
   },
 
   async _isRestaurantExist(id) {
-    const restaurant = await FavoriteRestaurantIdb.getRestaurant(id);
+    const restaurant = await this._favoriteRestaurants.getRestaurant(id);
     return !!restaurant;
   },
 
   _renderLikeButton() {
-    this._likeButtonContainer.innerHTML = createLikeButtonTemplate();
+    this._likeButtonContainer.innerHTML = createLikeRestaurantButtonTemplate();
 
     const likeButton = document.getElementById('likeButton');
     likeButton.addEventListener('click', async () => {
-      await FavoriteRestaurantIdb.putRestaurant(this._restaurant);
+      await this._favoriteRestaurants.putRestaurant(this._restaurant);
       this._renderButton();
     });
   },
 
   _renderLikedButton() {
-    this._likeButtonContainer.innerHTML = createLikedButtonTemplate();
+    this._likeButtonContainer.innerHTML = createUnlikeRestaurantButtonTemplate();
 
     const likedButton = document.getElementById('likeButton');
     likedButton.addEventListener('click', async () => {
-      await FavoriteRestaurantIdb.deleteRestaurant(this._restaurant.id);
+      await this._favoriteRestaurants.deleteRestaurant(this._restaurant.id);
       this._renderButton();
     });
   },
 };
 
-export default LikeButtonInitiatior;
+export default LikeButtonPresenter;

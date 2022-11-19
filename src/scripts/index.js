@@ -1,9 +1,9 @@
 import 'regenerator-runtime'; /* for async await transpile */
-// css
+import 'lazysizes';
+import 'lazysizes/plugins/parent-fit/ls.parent-fit';
 import '../styles/main.css';
 import '../styles/root.css';
 import '../styles/footer.css';
-import '../styles/spinner.css';
 import '../styles/utils.css';
 import '../styles/responsive.css';
 
