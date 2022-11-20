@@ -11,8 +11,7 @@ const createRestaurantItemDetail = (restaurant) => `
             </div>
 
             <div class="card-content">
-                <p class="card-content-title"><a href="${`/#/detail/${restaurant.id}`}">${restaurant.name}</a></p>
-                <p class="card-content-title"><a href="${`/#/detail/${restaurant.id}`}">${restaurant.city}</a></p>
+                <p class="card-content-title"><a href="${`/#/detail/${restaurant.id}`}">${restaurant.name} - ${restaurant.city}</a></p>
                 <p class="card-content-title-description"></p>
                 <p class="card-content-description">${restaurant.description}</p>
             </div>

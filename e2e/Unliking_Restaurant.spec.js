@@ -19,7 +19,7 @@ Scenario('Unliking one restaurant', async (I) => {
 
   I.amOnPage('/#/favorite');
   I.seeElement('.card');
-  const likedRestaurantTitle = await I.grabTextFrom('.card-content-title');
+  const likedRestaurantTitle = await I.grabTextFrom('.card-content-title a');
 
   assert.strictEqual(firstCardRestaurantTitle, likedRestaurantTitle);
 
@@ -32,4 +32,5 @@ Scenario('Unliking one restaurant', async (I) => {
 
   I.amOnPage('/#/favorite');
   I.seeElement('#explore-restaurant-list');
+  I.see('Tidak ada favorite restaurant yang ditampilkan', '.restaurant-item__not__found');
 });
