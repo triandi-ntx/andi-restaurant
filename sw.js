@@ -36,7 +36,6 @@ var serviceWorkerOption = {
     "/images/placeholder-small-small.jpg",
     "/images/placeholder-small.jpg",
     "/images/placeholder.jpg",
-    "/images/heros/hero.jpg",
     "/icons/144x144.png",
     "/icons/192x192.png",
     "/icons/256x256.png",
@@ -45,6 +44,7 @@ var serviceWorkerOption = {
     "/icons/512x512.png",
     "/icons/72x72.png",
     "/icons/96x96.png",
+    "/images/heros/hero.jpg",
     "/index.html"
   ]
 };

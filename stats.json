@@ -1,13 +1,13 @@
 {
   "errors": [],
   "warnings": [
-    "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  bd6b63650298f334a08b66446d66c536.jpg (470 KiB)\n  favicon.png (489 KiB)\n  images/hero.jpg (470 KiB)\n  images/heros/hero.jpg (603 KiB)\n  icons/384x384.png (253 KiB)\n  icons/512x512.png (416 KiB)",
+    "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  bd6b63650298f334a08b66446d66c536.jpg (470 KiB)\n  favicon.png (489 KiB)\n  images/hero.jpg (470 KiB)\n  icons/384x384.png (253 KiB)\n  icons/512x512.png (416 KiB)\n  images/heros/hero.jpg (603 KiB)",
     "webpack performance recommendations: \nYou can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.\nFor more info visit https://webpack.js.org/guides/code-splitting/"
   ],
   "version": "4.46.0",
-  "hash": "6bec8ab1d2cea25721f2",
-  "time": 23010,
-  "builtAt": 1669214771387,
+  "hash": "f34940dde2046dff0b5d",
+  "time": 25814,
+  "builtAt": 1669215750919,
   "publicPath": "",
   "outputPath": "D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist",
   "assetsByChunkName": {
@@ -817,7 +817,7 @@
     },
     {
       "name": "main~29d6ecf2.bundle.js",
-      "size": 34528,
+      "size": 34575,
       "chunks": [
         2
       ],
@@ -1788,14 +1788,14 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 51669,
+      "size": 51716,
       "names": [
         "main~29d6ecf2"
       ],
       "files": [
         "main~29d6ecf2.bundle.js"
       ],
-      "hash": "e5964911068583686958",
+      "hash": "784f497c4550fa4a396a",
       "siblings": [
         0,
         1,
@@ -1868,7 +1868,7 @@
           "name": "./src/scripts/views/app.js + 12 modules",
           "index": 25,
           "index2": 42,
-          "size": 30325,
+          "size": 30372,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -2194,7 +2194,7 @@
               "name": "./src/scripts/routes/routes.js",
               "index": 29,
               "index2": 41,
-              "size": 234,
+              "size": 281,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -2301,7 +2301,7 @@
                   "moduleName": "./src/scripts/routes/routes.js",
                   "type": "harmony import specifier",
                   "userRequest": "../views/pages/home",
-                  "loc": "5:7-11"
+                  "loc": "5:22-26"
                 }
               ],
               "usedExports": [
@@ -2366,7 +2366,7 @@
                   "moduleName": "./src/scripts/routes/routes.js",
                   "type": "harmony import specifier",
                   "userRequest": "../views/pages/favorite",
-                  "loc": "6:15-23"
+                  "loc": "6:31-39"
                 }
               ],
               "usedExports": [
@@ -2431,7 +2431,7 @@
                   "moduleName": "./src/scripts/routes/routes.js",
                   "type": "harmony import specifier",
                   "userRequest": "../views/pages/detail",
-                  "loc": "7:17-23"
+                  "loc": "7:33-39"
                 }
               ],
               "usedExports": [
@@ -2455,9 +2455,9 @@
               "optional": false,
               "prefetched": false,
               "chunks": [],
-              "issuer": "D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\scripts\\views\\pages\\favorite.js",
+              "issuer": "D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\scripts\\views\\pages\\home.js",
               "issuerId": null,
-              "issuerName": "./src/scripts/views/pages/favorite.js",
+              "issuerName": "./src/scripts/views/pages/home.js",
               "issuerPath": [
                 {
                   "id": 31,
@@ -2476,8 +2476,8 @@
                 },
                 {
                   "id": null,
-                  "identifier": "D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\scripts\\views\\pages\\favorite.js",
-                  "name": "./src/scripts/views/pages/favorite.js"
+                  "identifier": "D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\scripts\\views\\pages\\home.js",
+                  "name": "./src/scripts/views/pages/home.js"
                 }
               ],
               "failed": false,
@@ -2487,21 +2487,21 @@
               "reasons": [
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\scripts\\views\\pages\\favorite.js",
-                  "module": "./src/scripts/views/pages/favorite.js",
-                  "moduleName": "./src/scripts/views/pages/favorite.js",
-                  "type": "harmony side effect evaluation",
-                  "userRequest": "../templates/item-detail",
-                  "loc": "6:0-70"
-                },
-                {
-                  "moduleId": null,
                   "moduleIdentifier": "D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\scripts\\views\\pages\\home.js",
                   "module": "./src/scripts/views/pages/home.js",
                   "moduleName": "./src/scripts/views/pages/home.js",
                   "type": "harmony side effect evaluation",
                   "userRequest": "../templates/item-detail",
                   "loc": "6:0-104"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\scripts\\views\\pages\\favorite.js",
+                  "module": "./src/scripts/views/pages/favorite.js",
+                  "moduleName": "./src/scripts/views/pages/favorite.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "../templates/item-detail",
+                  "loc": "6:0-70"
                 },
                 {
                   "moduleId": null,
@@ -5500,7 +5500,7 @@
       "name": "./src/scripts/views/app.js + 12 modules",
       "index": 25,
       "index2": 42,
-      "size": 30325,
+      "size": 30372,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -5826,7 +5826,7 @@
           "name": "./src/scripts/routes/routes.js",
           "index": 29,
           "index2": 41,
-          "size": 234,
+          "size": 281,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -5933,7 +5933,7 @@
               "moduleName": "./src/scripts/routes/routes.js",
               "type": "harmony import specifier",
               "userRequest": "../views/pages/home",
-              "loc": "5:7-11"
+              "loc": "5:22-26"
             }
           ],
           "usedExports": [
@@ -5998,7 +5998,7 @@
               "moduleName": "./src/scripts/routes/routes.js",
               "type": "harmony import specifier",
               "userRequest": "../views/pages/favorite",
-              "loc": "6:15-23"
+              "loc": "6:31-39"
             }
           ],
           "usedExports": [
@@ -6063,7 +6063,7 @@
               "moduleName": "./src/scripts/routes/routes.js",
               "type": "harmony import specifier",
               "userRequest": "../views/pages/detail",
-              "loc": "7:17-23"
+              "loc": "7:33-39"
             }
           ],
           "usedExports": [
@@ -6087,9 +6087,9 @@
           "optional": false,
           "prefetched": false,
           "chunks": [],
-          "issuer": "D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\scripts\\views\\pages\\favorite.js",
+          "issuer": "D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\scripts\\views\\pages\\home.js",
           "issuerId": null,
-          "issuerName": "./src/scripts/views/pages/favorite.js",
+          "issuerName": "./src/scripts/views/pages/home.js",
           "issuerPath": [
             {
               "id": 31,
@@ -6108,8 +6108,8 @@
             },
             {
               "id": null,
-              "identifier": "D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\scripts\\views\\pages\\favorite.js",
-              "name": "./src/scripts/views/pages/favorite.js"
+              "identifier": "D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\scripts\\views\\pages\\home.js",
+              "name": "./src/scripts/views/pages/home.js"
             }
           ],
           "failed": false,
@@ -6119,21 +6119,21 @@
           "reasons": [
             {
               "moduleId": null,
-              "moduleIdentifier": "D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\scripts\\views\\pages\\favorite.js",
-              "module": "./src/scripts/views/pages/favorite.js",
-              "moduleName": "./src/scripts/views/pages/favorite.js",
-              "type": "harmony side effect evaluation",
-              "userRequest": "../templates/item-detail",
-              "loc": "6:0-70"
-            },
-            {
-              "moduleId": null,
               "moduleIdentifier": "D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\scripts\\views\\pages\\home.js",
               "module": "./src/scripts/views/pages/home.js",
               "moduleName": "./src/scripts/views/pages/home.js",
               "type": "harmony side effect evaluation",
               "userRequest": "../templates/item-detail",
               "loc": "6:0-104"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\scripts\\views\\pages\\favorite.js",
+              "module": "./src/scripts/views/pages/favorite.js",
+              "moduleName": "./src/scripts/views/pages/favorite.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "../templates/item-detail",
+              "loc": "6:0-70"
             },
             {
               "moduleId": null,
@@ -8003,14 +8003,6 @@
         },
         {
           "type": "log",
-          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/images/heros/hero.jpg' should write to 'images\\heros\\hero.jpg'"
-        },
-        {
-          "type": "log",
-          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
-        },
-        {
-          "type": "log",
           "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/icons/144x144.png' should write to 'icons\\144x144.png'"
         },
         {
@@ -8068,6 +8060,14 @@
         {
           "type": "log",
           "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/icons/96x96.png' should write to 'icons\\96x96.png'"
+        },
+        {
+          "type": "log",
+          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
+        },
+        {
+          "type": "log",
+          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/images/heros/hero.jpg' should write to 'images\\heros\\hero.jpg'"
         },
         {
           "type": "log",
@@ -8299,14 +8299,6 @@
         },
         {
           "type": "log",
-          "message": "writing 'images/heros/hero.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\heros\\hero.jpg' to compilation assets..."
-        },
-        {
-          "type": "log",
-          "message": "written 'images/heros/hero.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\heros\\hero.jpg' to compilation assets"
-        },
-        {
-          "type": "log",
           "message": "writing 'icons/144x144.png' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\icons\\144x144.png' to compilation assets..."
         },
         {
@@ -8368,6 +8360,14 @@
         {
           "type": "log",
           "message": "written 'icons/96x96.png' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\icons\\96x96.png' to compilation assets"
+        },
+        {
+          "type": "log",
+          "message": "writing 'images/heros/hero.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\heros\\hero.jpg' to compilation assets..."
+        },
+        {
+          "type": "log",
+          "message": "written 'images/heros/hero.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\heros\\hero.jpg' to compilation assets"
         },
         {
           "type": "log",
