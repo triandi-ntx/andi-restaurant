@@ -1,13 +1,13 @@
 {
   "errors": [],
   "warnings": [
-    "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  bd6b63650298f334a08b66446d66c536.jpg (470 KiB)\n  favicon.png (489 KiB)\n  images/hero.jpg (470 KiB)\n  icons/384x384.png (253 KiB)\n  icons/512x512.png (416 KiB)\n  images/heros/hero.jpg (603 KiB)",
+    "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  bd6b63650298f334a08b66446d66c536.jpg (470 KiB)\n  favicon.png (489 KiB)\n  icons/384x384.png (253 KiB)\n  icons/512x512.png (416 KiB)\n  images/hero.jpg (470 KiB)\n  images/heros/hero.jpg (603 KiB)",
     "webpack performance recommendations: \nYou can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.\nFor more info visit https://webpack.js.org/guides/code-splitting/"
   ],
   "version": "4.46.0",
-  "hash": "f34940dde2046dff0b5d",
-  "time": 25814,
-  "builtAt": 1669215750919,
+  "hash": "6b9c2eb68779671aef93",
+  "time": 19557,
+  "builtAt": 1669216221277,
   "publicPath": "",
   "outputPath": "D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist",
   "assetsByChunkName": {
@@ -817,7 +817,7 @@
     },
     {
       "name": "main~29d6ecf2.bundle.js",
-      "size": 34575,
+      "size": 34592,
       "chunks": [
         2
       ],
@@ -1021,9 +1021,9 @@
           "chunks": [
             0
           ],
-          "issuer": "D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\regenerator-runtime\\runtime.js",
-          "issuerId": 12,
-          "issuerName": "./node_modules/regenerator-runtime/runtime.js",
+          "issuer": "D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\lazysizes\\lazysizes.js",
+          "issuerId": 6,
+          "issuerName": "./node_modules/lazysizes/lazysizes.js",
           "issuerPath": [
             {
               "id": 31,
@@ -1031,9 +1031,9 @@
               "name": "./src/scripts/index.js"
             },
             {
-              "id": 12,
-              "identifier": "D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\regenerator-runtime\\runtime.js",
-              "name": "./node_modules/regenerator-runtime/runtime.js"
+              "id": 6,
+              "identifier": "D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\lazysizes\\lazysizes.js",
+              "name": "./node_modules/lazysizes/lazysizes.js"
             }
           ],
           "failed": false,
@@ -1788,14 +1788,14 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 51716,
+      "size": 51733,
       "names": [
         "main~29d6ecf2"
       ],
       "files": [
         "main~29d6ecf2.bundle.js"
       ],
-      "hash": "784f497c4550fa4a396a",
+      "hash": "d91aa54fb12387a8e1c8",
       "siblings": [
         0,
         1,
@@ -1868,7 +1868,7 @@
           "name": "./src/scripts/views/app.js + 12 modules",
           "index": 25,
           "index2": 42,
-          "size": 30372,
+          "size": 30389,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -2098,7 +2098,7 @@
               "name": "./src/scripts/routes/url-parser.js",
               "index": 28,
               "index2": 26,
-              "size": 874,
+              "size": 906,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -2194,7 +2194,7 @@
               "name": "./src/scripts/routes/routes.js",
               "index": 29,
               "index2": 41,
-              "size": 281,
+              "size": 266,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -2301,7 +2301,7 @@
                   "moduleName": "./src/scripts/routes/routes.js",
                   "type": "harmony import specifier",
                   "userRequest": "../views/pages/home",
-                  "loc": "5:22-26"
+                  "loc": "5:7-11"
                 }
               ],
               "usedExports": [
@@ -5191,9 +5191,9 @@
       "chunks": [
         0
       ],
-      "issuer": "D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\regenerator-runtime\\runtime.js",
-      "issuerId": 12,
-      "issuerName": "./node_modules/regenerator-runtime/runtime.js",
+      "issuer": "D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\lazysizes\\lazysizes.js",
+      "issuerId": 6,
+      "issuerName": "./node_modules/lazysizes/lazysizes.js",
       "issuerPath": [
         {
           "id": 31,
@@ -5201,9 +5201,9 @@
           "name": "./src/scripts/index.js"
         },
         {
-          "id": 12,
-          "identifier": "D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\regenerator-runtime\\runtime.js",
-          "name": "./node_modules/regenerator-runtime/runtime.js"
+          "id": 6,
+          "identifier": "D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\lazysizes\\lazysizes.js",
+          "name": "./node_modules/lazysizes/lazysizes.js"
         }
       ],
       "failed": false,
@@ -5500,7 +5500,7 @@
       "name": "./src/scripts/views/app.js + 12 modules",
       "index": 25,
       "index2": 42,
-      "size": 30372,
+      "size": 30389,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -5730,7 +5730,7 @@
           "name": "./src/scripts/routes/url-parser.js",
           "index": 28,
           "index2": 26,
-          "size": 874,
+          "size": 906,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -5826,7 +5826,7 @@
           "name": "./src/scripts/routes/routes.js",
           "index": 29,
           "index2": 41,
-          "size": 281,
+          "size": 266,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -5933,7 +5933,7 @@
               "moduleName": "./src/scripts/routes/routes.js",
               "type": "harmony import specifier",
               "userRequest": "../views/pages/home",
-              "loc": "5:22-26"
+              "loc": "5:7-11"
             }
           ],
           "usedExports": [
@@ -7795,6 +7795,70 @@
         },
         {
           "type": "log",
+          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/icons/144x144.png' should write to 'icons\\144x144.png'"
+        },
+        {
+          "type": "log",
+          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
+        },
+        {
+          "type": "log",
+          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/icons/192x192.png' should write to 'icons\\192x192.png'"
+        },
+        {
+          "type": "log",
+          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
+        },
+        {
+          "type": "log",
+          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/icons/256x256.png' should write to 'icons\\256x256.png'"
+        },
+        {
+          "type": "log",
+          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
+        },
+        {
+          "type": "log",
+          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/icons/384x384.png' should write to 'icons\\384x384.png'"
+        },
+        {
+          "type": "log",
+          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
+        },
+        {
+          "type": "log",
+          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/icons/48x48.png' should write to 'icons\\48x48.png'"
+        },
+        {
+          "type": "log",
+          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
+        },
+        {
+          "type": "log",
+          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/icons/512x512.png' should write to 'icons\\512x512.png'"
+        },
+        {
+          "type": "log",
+          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
+        },
+        {
+          "type": "log",
+          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/icons/72x72.png' should write to 'icons\\72x72.png'"
+        },
+        {
+          "type": "log",
+          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
+        },
+        {
+          "type": "log",
+          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/icons/96x96.png' should write to 'icons\\96x96.png'"
+        },
+        {
+          "type": "log",
+          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
+        },
+        {
+          "type": "log",
           "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/images/hero-large-large.jpg' should write to 'images\\hero-large-large.jpg'"
         },
         {
@@ -8003,70 +8067,6 @@
         },
         {
           "type": "log",
-          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/icons/144x144.png' should write to 'icons\\144x144.png'"
-        },
-        {
-          "type": "log",
-          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
-        },
-        {
-          "type": "log",
-          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/icons/192x192.png' should write to 'icons\\192x192.png'"
-        },
-        {
-          "type": "log",
-          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
-        },
-        {
-          "type": "log",
-          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/icons/256x256.png' should write to 'icons\\256x256.png'"
-        },
-        {
-          "type": "log",
-          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
-        },
-        {
-          "type": "log",
-          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/icons/384x384.png' should write to 'icons\\384x384.png'"
-        },
-        {
-          "type": "log",
-          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
-        },
-        {
-          "type": "log",
-          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/icons/48x48.png' should write to 'icons\\48x48.png'"
-        },
-        {
-          "type": "log",
-          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
-        },
-        {
-          "type": "log",
-          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/icons/512x512.png' should write to 'icons\\512x512.png'"
-        },
-        {
-          "type": "log",
-          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
-        },
-        {
-          "type": "log",
-          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/icons/72x72.png' should write to 'icons\\72x72.png'"
-        },
-        {
-          "type": "log",
-          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
-        },
-        {
-          "type": "log",
-          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/icons/96x96.png' should write to 'icons\\96x96.png'"
-        },
-        {
-          "type": "log",
-          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
-        },
-        {
-          "type": "log",
           "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/images/heros/hero.jpg' should write to 'images\\heros\\hero.jpg'"
         },
         {
@@ -8088,6 +8088,70 @@
         {
           "type": "log",
           "message": "written 'manifest.json' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\manifest.json' to compilation assets"
+        },
+        {
+          "type": "log",
+          "message": "writing 'icons/144x144.png' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\icons\\144x144.png' to compilation assets..."
+        },
+        {
+          "type": "log",
+          "message": "written 'icons/144x144.png' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\icons\\144x144.png' to compilation assets"
+        },
+        {
+          "type": "log",
+          "message": "writing 'icons/192x192.png' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\icons\\192x192.png' to compilation assets..."
+        },
+        {
+          "type": "log",
+          "message": "written 'icons/192x192.png' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\icons\\192x192.png' to compilation assets"
+        },
+        {
+          "type": "log",
+          "message": "writing 'icons/256x256.png' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\icons\\256x256.png' to compilation assets..."
+        },
+        {
+          "type": "log",
+          "message": "written 'icons/256x256.png' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\icons\\256x256.png' to compilation assets"
+        },
+        {
+          "type": "log",
+          "message": "writing 'icons/384x384.png' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\icons\\384x384.png' to compilation assets..."
+        },
+        {
+          "type": "log",
+          "message": "written 'icons/384x384.png' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\icons\\384x384.png' to compilation assets"
+        },
+        {
+          "type": "log",
+          "message": "writing 'icons/48x48.png' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\icons\\48x48.png' to compilation assets..."
+        },
+        {
+          "type": "log",
+          "message": "written 'icons/48x48.png' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\icons\\48x48.png' to compilation assets"
+        },
+        {
+          "type": "log",
+          "message": "writing 'icons/512x512.png' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\icons\\512x512.png' to compilation assets..."
+        },
+        {
+          "type": "log",
+          "message": "written 'icons/512x512.png' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\icons\\512x512.png' to compilation assets"
+        },
+        {
+          "type": "log",
+          "message": "writing 'icons/72x72.png' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\icons\\72x72.png' to compilation assets..."
+        },
+        {
+          "type": "log",
+          "message": "written 'icons/72x72.png' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\icons\\72x72.png' to compilation assets"
+        },
+        {
+          "type": "log",
+          "message": "writing 'icons/96x96.png' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\icons\\96x96.png' to compilation assets..."
+        },
+        {
+          "type": "log",
+          "message": "written 'icons/96x96.png' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\icons\\96x96.png' to compilation assets"
         },
         {
           "type": "log",
@@ -8296,70 +8360,6 @@
         {
           "type": "log",
           "message": "written 'images/placeholder.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\placeholder.jpg' to compilation assets"
-        },
-        {
-          "type": "log",
-          "message": "writing 'icons/144x144.png' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\icons\\144x144.png' to compilation assets..."
-        },
-        {
-          "type": "log",
-          "message": "written 'icons/144x144.png' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\icons\\144x144.png' to compilation assets"
-        },
-        {
-          "type": "log",
-          "message": "writing 'icons/192x192.png' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\icons\\192x192.png' to compilation assets..."
-        },
-        {
-          "type": "log",
-          "message": "written 'icons/192x192.png' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\icons\\192x192.png' to compilation assets"
-        },
-        {
-          "type": "log",
-          "message": "writing 'icons/256x256.png' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\icons\\256x256.png' to compilation assets..."
-        },
-        {
-          "type": "log",
-          "message": "written 'icons/256x256.png' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\icons\\256x256.png' to compilation assets"
-        },
-        {
-          "type": "log",
-          "message": "writing 'icons/384x384.png' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\icons\\384x384.png' to compilation assets..."
-        },
-        {
-          "type": "log",
-          "message": "written 'icons/384x384.png' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\icons\\384x384.png' to compilation assets"
-        },
-        {
-          "type": "log",
-          "message": "writing 'icons/48x48.png' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\icons\\48x48.png' to compilation assets..."
-        },
-        {
-          "type": "log",
-          "message": "written 'icons/48x48.png' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\icons\\48x48.png' to compilation assets"
-        },
-        {
-          "type": "log",
-          "message": "writing 'icons/512x512.png' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\icons\\512x512.png' to compilation assets..."
-        },
-        {
-          "type": "log",
-          "message": "written 'icons/512x512.png' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\icons\\512x512.png' to compilation assets"
-        },
-        {
-          "type": "log",
-          "message": "writing 'icons/72x72.png' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\icons\\72x72.png' to compilation assets..."
-        },
-        {
-          "type": "log",
-          "message": "written 'icons/72x72.png' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\icons\\72x72.png' to compilation assets"
-        },
-        {
-          "type": "log",
-          "message": "writing 'icons/96x96.png' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\icons\\96x96.png' to compilation assets..."
-        },
-        {
-          "type": "log",
-          "message": "written 'icons/96x96.png' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\icons\\96x96.png' to compilation assets"
         },
         {
           "type": "log",
