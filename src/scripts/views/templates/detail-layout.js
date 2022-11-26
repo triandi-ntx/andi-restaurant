@@ -5,13 +5,13 @@ const createRestaurantDetailLayout = (restaurant) => `
 <div tabindex="0" class="container-info">
 <div class="img-container">
 <picture>
-<source class="detail-img lazyload" data-srcset="${CONFIG.BASE_IMAGE_URL + restaurant.pictureId}" type="image/webp" media="all and (max-width: 300px)" />        
-<source class="detail-img lazyload" data-srcset="${CONFIG.BASE_IMAGE_URL + restaurant.pictureId}" type="image/jpeg" media="all and (max-width: 300px)" />
-<source class="detail-img lazyload" data-srcset="${CONFIG.BASE_IMAGE_URL + restaurant.pictureId}" type="image/webp" media="all and (min-width: 700px) and (max-width: 900px)" />    
-<source class="detail-img lazyload" data-srcset="${CONFIG.BASE_IMAGE_URL + restaurant.pictureId}" type="image/jpeg" media="all and (min-width: 700px) and (max-width: 900px)" />
-<source class="detail-img lazyload" data-srcset="${CONFIG.BASE_IMAGE_URL + restaurant.pictureId}" type="image/webp" media="all and (min-width: 901px)" />        
-<source class="detail-img lazyload" data-srcset="${CONFIG.BASE_IMAGE_URL + restaurant.pictureId}" type="image/jpeg" media="all and (min-width: 901px)" />
-<img class="detail-img lazyload" data-src="${CONFIG.BASE_IMAGE_URL + restaurant.pictureId}" alt="${restaurant.name}"/>
+<source class="detail-img lazyload" srcset="${CONFIG.BASE_IMAGE_SMALL_URL + restaurant.pictureId}" type="image/webp" media="all and (max-width: 300px)" />        
+<source class="detail-img lazyload" srcset="${CONFIG.BASE_IMAGE_SMALL_URL + restaurant.pictureId}" type="image/jpeg" media="all and (max-width: 300px)" />
+<source class="detail-img lazyload" srcset="${CONFIG.BASE_IMAGE_MEDIUM_URL + restaurant.pictureId}" type="image/webp" media="all and (min-width: 700px) and (max-width: 900px)" />    
+<source class="detail-img lazyload" srcset="${CONFIG.BASE_IMAGE_MEDIUM_URL + restaurant.pictureId}" type="image/jpeg" media="all and (min-width: 700px) and (max-width: 900px)" />
+<source class="detail-img lazyload" srcset="${CONFIG.BASE_IMAGE_LARGE_URL + restaurant.pictureId}" type="image/webp" media="all and (min-width: 901px)" />        
+<source class="detail-img lazyload" srcset="${CONFIG.BASE_IMAGE_LARGE_URL + restaurant.pictureId}" type="image/jpeg" media="all and (min-width: 901px)" />
+<img class="detail-img lazyload" data-src="${CONFIG.BASE_IMAGE_MEDIUM_URL + restaurant.pictureId}" alt="${restaurant.name}"/>
 </picture>
 </div>
 

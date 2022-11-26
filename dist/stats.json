@@ -1,13 +1,13 @@
 {
   "errors": [],
   "warnings": [
-    "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  bd6b63650298f334a08b66446d66c536.jpg (470 KiB)\n  favicon.png (489 KiB)\n  images/hero.jpg (470 KiB)\n  icons/384x384.png (253 KiB)\n  icons/512x512.png (416 KiB)\n  images/heros/hero.jpg (603 KiB)",
+    "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  bd6b63650298f334a08b66446d66c536.jpg (470 KiB)\n  favicon.png (489 KiB)\n  icons/384x384.png (253 KiB)\n  icons/512x512.png (416 KiB)\n  images/hero.jpg (470 KiB)\n  images/heros/hero.jpg (603 KiB)",
     "webpack performance recommendations: \nYou can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.\nFor more info visit https://webpack.js.org/guides/code-splitting/"
   ],
   "version": "4.46.0",
-  "hash": "6bec8ab1d2cea25721f2",
-  "time": 36360,
-  "builtAt": 1669213844033,
+  "hash": "6b9c2eb68779671aef93",
+  "time": 19557,
+  "builtAt": 1669216221277,
   "publicPath": "",
   "outputPath": "D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist",
   "assetsByChunkName": {
@@ -293,6 +293,63 @@
       "emitted": true
     },
     {
+      "name": "images/hero-large-large.jpg",
+      "size": 200697,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/public/images/hero-large-large.jpg"
+      },
+      "emitted": true
+    },
+    {
+      "name": "images/hero-large-large.webp",
+      "size": 79308,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "images/hero-large-medium.jpg",
+      "size": 90847,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/public/images/hero-large-medium.jpg"
+      },
+      "emitted": true
+    },
+    {
+      "name": "images/hero-large-medium.webp",
+      "size": 42622,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "images/hero-large-small.jpg",
+      "size": 39148,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/public/images/hero-large-small.jpg"
+      },
+      "emitted": true
+    },
+    {
+      "name": "images/hero-large-small.webp",
+      "size": 20108,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
       "name": "images/hero-large.jpg",
       "size": 200854,
       "chunks": [],
@@ -312,6 +369,63 @@
       "emitted": true
     },
     {
+      "name": "images/hero-medium-large.jpg",
+      "size": 173253,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/public/images/hero-medium-large.jpg"
+      },
+      "emitted": true
+    },
+    {
+      "name": "images/hero-medium-large.webp",
+      "size": 66028,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "images/hero-medium-medium.jpg",
+      "size": 90181,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/public/images/hero-medium-medium.jpg"
+      },
+      "emitted": true
+    },
+    {
+      "name": "images/hero-medium-medium.webp",
+      "size": 42190,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "images/hero-medium-small.jpg",
+      "size": 39383,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/public/images/hero-medium-small.jpg"
+      },
+      "emitted": true
+    },
+    {
+      "name": "images/hero-medium-small.webp",
+      "size": 20240,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
       "name": "images/hero-medium.jpg",
       "size": 90203,
       "chunks": [],
@@ -325,6 +439,63 @@
     {
       "name": "images/hero-medium.webp",
       "size": 42200,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "images/hero-small-large.jpg",
+      "size": 148386,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/public/images/hero-small-large.jpg"
+      },
+      "emitted": true
+    },
+    {
+      "name": "images/hero-small-large.webp",
+      "size": 55312,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "images/hero-small-medium.jpg",
+      "size": 76862,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/public/images/hero-small-medium.jpg"
+      },
+      "emitted": true
+    },
+    {
+      "name": "images/hero-small-medium.webp",
+      "size": 32002,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "images/hero-small-small.jpg",
+      "size": 39087,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/public/images/hero-small-small.jpg"
+      },
+      "emitted": true
+    },
+    {
+      "name": "images/hero-small-small.webp",
+      "size": 20066,
       "chunks": [],
       "chunkNames": [],
       "info": {},
@@ -390,6 +561,63 @@
       "emitted": true
     },
     {
+      "name": "images/placeholder-large-large.jpg",
+      "size": 10351,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/public/images/placeholder-large-large.jpg"
+      },
+      "emitted": true
+    },
+    {
+      "name": "images/placeholder-large-large.webp",
+      "size": 3122,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "images/placeholder-large-medium.jpg",
+      "size": 4015,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/public/images/placeholder-large-medium.jpg"
+      },
+      "emitted": true
+    },
+    {
+      "name": "images/placeholder-large-medium.webp",
+      "size": 1198,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "images/placeholder-large-small.jpg",
+      "size": 1615,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/public/images/placeholder-large-small.jpg"
+      },
+      "emitted": true
+    },
+    {
+      "name": "images/placeholder-large-small.webp",
+      "size": 470,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
       "name": "images/placeholder-large.jpg",
       "size": 10351,
       "chunks": [],
@@ -409,6 +637,63 @@
       "emitted": true
     },
     {
+      "name": "images/placeholder-medium-large.jpg",
+      "size": 10351,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/public/images/placeholder-medium-large.jpg"
+      },
+      "emitted": true
+    },
+    {
+      "name": "images/placeholder-medium-large.webp",
+      "size": 3122,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "images/placeholder-medium-medium.jpg",
+      "size": 4015,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/public/images/placeholder-medium-medium.jpg"
+      },
+      "emitted": true
+    },
+    {
+      "name": "images/placeholder-medium-medium.webp",
+      "size": 1198,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "images/placeholder-medium-small.jpg",
+      "size": 1615,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/public/images/placeholder-medium-small.jpg"
+      },
+      "emitted": true
+    },
+    {
+      "name": "images/placeholder-medium-small.webp",
+      "size": 470,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
       "name": "images/placeholder-medium.jpg",
       "size": 4015,
       "chunks": [],
@@ -422,6 +707,63 @@
     {
       "name": "images/placeholder-medium.webp",
       "size": 1198,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "images/placeholder-small-large.jpg",
+      "size": 10351,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/public/images/placeholder-small-large.jpg"
+      },
+      "emitted": true
+    },
+    {
+      "name": "images/placeholder-small-large.webp",
+      "size": 3122,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "images/placeholder-small-medium.jpg",
+      "size": 4015,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/public/images/placeholder-small-medium.jpg"
+      },
+      "emitted": true
+    },
+    {
+      "name": "images/placeholder-small-medium.webp",
+      "size": 1198,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "images/placeholder-small-small.jpg",
+      "size": 1615,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/public/images/placeholder-small-small.jpg"
+      },
+      "emitted": true
+    },
+    {
+      "name": "images/placeholder-small-small.webp",
+      "size": 470,
       "chunks": [],
       "chunkNames": [],
       "info": {},
@@ -475,7 +817,7 @@
     },
     {
       "name": "main~29d6ecf2.bundle.js",
-      "size": 34528,
+      "size": 34592,
       "chunks": [
         2
       ],
@@ -510,7 +852,7 @@
     },
     {
       "name": "sw.js",
-      "size": 13433,
+      "size": 14156,
       "chunks": [],
       "chunkNames": [],
       "info": {},
@@ -679,9 +1021,9 @@
           "chunks": [
             0
           ],
-          "issuer": "D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\lazysizes\\plugins\\parent-fit\\ls.parent-fit.js",
-          "issuerId": 13,
-          "issuerName": "./node_modules/lazysizes/plugins/parent-fit/ls.parent-fit.js",
+          "issuer": "D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\lazysizes\\lazysizes.js",
+          "issuerId": 6,
+          "issuerName": "./node_modules/lazysizes/lazysizes.js",
           "issuerPath": [
             {
               "id": 31,
@@ -689,9 +1031,9 @@
               "name": "./src/scripts/index.js"
             },
             {
-              "id": 13,
-              "identifier": "D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\lazysizes\\plugins\\parent-fit\\ls.parent-fit.js",
-              "name": "./node_modules/lazysizes/plugins/parent-fit/ls.parent-fit.js"
+              "id": 6,
+              "identifier": "D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\lazysizes\\lazysizes.js",
+              "name": "./node_modules/lazysizes/lazysizes.js"
             }
           ],
           "failed": false,
@@ -1446,14 +1788,14 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 51669,
+      "size": 51733,
       "names": [
         "main~29d6ecf2"
       ],
       "files": [
         "main~29d6ecf2.bundle.js"
       ],
-      "hash": "e5964911068583686958",
+      "hash": "d91aa54fb12387a8e1c8",
       "siblings": [
         0,
         1,
@@ -1526,7 +1868,7 @@
           "name": "./src/scripts/views/app.js + 12 modules",
           "index": 25,
           "index2": 42,
-          "size": 30325,
+          "size": 30389,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -1756,7 +2098,7 @@
               "name": "./src/scripts/routes/url-parser.js",
               "index": 28,
               "index2": 26,
-              "size": 874,
+              "size": 906,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -1852,7 +2194,7 @@
               "name": "./src/scripts/routes/routes.js",
               "index": 29,
               "index2": 41,
-              "size": 234,
+              "size": 266,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -2024,7 +2366,7 @@
                   "moduleName": "./src/scripts/routes/routes.js",
                   "type": "harmony import specifier",
                   "userRequest": "../views/pages/favorite",
-                  "loc": "6:15-23"
+                  "loc": "6:31-39"
                 }
               ],
               "usedExports": [
@@ -2089,7 +2431,7 @@
                   "moduleName": "./src/scripts/routes/routes.js",
                   "type": "harmony import specifier",
                   "userRequest": "../views/pages/detail",
-                  "loc": "7:17-23"
+                  "loc": "7:33-39"
                 }
               ],
               "usedExports": [
@@ -4849,9 +5191,9 @@
       "chunks": [
         0
       ],
-      "issuer": "D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\lazysizes\\plugins\\parent-fit\\ls.parent-fit.js",
-      "issuerId": 13,
-      "issuerName": "./node_modules/lazysizes/plugins/parent-fit/ls.parent-fit.js",
+      "issuer": "D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\lazysizes\\lazysizes.js",
+      "issuerId": 6,
+      "issuerName": "./node_modules/lazysizes/lazysizes.js",
       "issuerPath": [
         {
           "id": 31,
@@ -4859,9 +5201,9 @@
           "name": "./src/scripts/index.js"
         },
         {
-          "id": 13,
-          "identifier": "D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\lazysizes\\plugins\\parent-fit\\ls.parent-fit.js",
-          "name": "./node_modules/lazysizes/plugins/parent-fit/ls.parent-fit.js"
+          "id": 6,
+          "identifier": "D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\node_modules\\lazysizes\\lazysizes.js",
+          "name": "./node_modules/lazysizes/lazysizes.js"
         }
       ],
       "failed": false,
@@ -5158,7 +5500,7 @@
       "name": "./src/scripts/views/app.js + 12 modules",
       "index": 25,
       "index2": 42,
-      "size": 30325,
+      "size": 30389,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -5388,7 +5730,7 @@
           "name": "./src/scripts/routes/url-parser.js",
           "index": 28,
           "index2": 26,
-          "size": 874,
+          "size": 906,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -5484,7 +5826,7 @@
           "name": "./src/scripts/routes/routes.js",
           "index": 29,
           "index2": 41,
-          "size": 234,
+          "size": 266,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -5656,7 +5998,7 @@
               "moduleName": "./src/scripts/routes/routes.js",
               "type": "harmony import specifier",
               "userRequest": "../views/pages/favorite",
-              "loc": "6:15-23"
+              "loc": "6:31-39"
             }
           ],
           "usedExports": [
@@ -5721,7 +6063,7 @@
               "moduleName": "./src/scripts/routes/routes.js",
               "type": "harmony import specifier",
               "userRequest": "../views/pages/detail",
-              "loc": "7:17-23"
+              "loc": "7:33-39"
             }
           ],
           "usedExports": [
@@ -7453,70 +7795,6 @@
         },
         {
           "type": "log",
-          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/images/hero-large.jpg' should write to 'images\\hero-large.jpg'"
-        },
-        {
-          "type": "log",
-          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
-        },
-        {
-          "type": "log",
-          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/images/hero-medium.jpg' should write to 'images\\hero-medium.jpg'"
-        },
-        {
-          "type": "log",
-          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
-        },
-        {
-          "type": "log",
-          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/images/hero-small.jpg' should write to 'images\\hero-small.jpg'"
-        },
-        {
-          "type": "log",
-          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
-        },
-        {
-          "type": "log",
-          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/images/hero.jpg' should write to 'images\\hero.jpg'"
-        },
-        {
-          "type": "log",
-          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
-        },
-        {
-          "type": "log",
-          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/images/placeholder-large.jpg' should write to 'images\\placeholder-large.jpg'"
-        },
-        {
-          "type": "log",
-          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
-        },
-        {
-          "type": "log",
-          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/images/placeholder-medium.jpg' should write to 'images\\placeholder-medium.jpg'"
-        },
-        {
-          "type": "log",
-          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
-        },
-        {
-          "type": "log",
-          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/images/placeholder-small.jpg' should write to 'images\\placeholder-small.jpg'"
-        },
-        {
-          "type": "log",
-          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
-        },
-        {
-          "type": "log",
-          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/images/placeholder.jpg' should write to 'images\\placeholder.jpg'"
-        },
-        {
-          "type": "log",
-          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
-        },
-        {
-          "type": "log",
           "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/icons/144x144.png' should write to 'icons\\144x144.png'"
         },
         {
@@ -7581,6 +7859,214 @@
         },
         {
           "type": "log",
+          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/images/hero-large-large.jpg' should write to 'images\\hero-large-large.jpg'"
+        },
+        {
+          "type": "log",
+          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
+        },
+        {
+          "type": "log",
+          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/images/hero-large-medium.jpg' should write to 'images\\hero-large-medium.jpg'"
+        },
+        {
+          "type": "log",
+          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
+        },
+        {
+          "type": "log",
+          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/images/hero-large-small.jpg' should write to 'images\\hero-large-small.jpg'"
+        },
+        {
+          "type": "log",
+          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
+        },
+        {
+          "type": "log",
+          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/images/hero-large.jpg' should write to 'images\\hero-large.jpg'"
+        },
+        {
+          "type": "log",
+          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
+        },
+        {
+          "type": "log",
+          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/images/hero-medium-large.jpg' should write to 'images\\hero-medium-large.jpg'"
+        },
+        {
+          "type": "log",
+          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
+        },
+        {
+          "type": "log",
+          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/images/hero-medium-medium.jpg' should write to 'images\\hero-medium-medium.jpg'"
+        },
+        {
+          "type": "log",
+          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
+        },
+        {
+          "type": "log",
+          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/images/hero-medium-small.jpg' should write to 'images\\hero-medium-small.jpg'"
+        },
+        {
+          "type": "log",
+          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
+        },
+        {
+          "type": "log",
+          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/images/hero-medium.jpg' should write to 'images\\hero-medium.jpg'"
+        },
+        {
+          "type": "log",
+          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
+        },
+        {
+          "type": "log",
+          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/images/hero-small-large.jpg' should write to 'images\\hero-small-large.jpg'"
+        },
+        {
+          "type": "log",
+          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
+        },
+        {
+          "type": "log",
+          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/images/hero-small-medium.jpg' should write to 'images\\hero-small-medium.jpg'"
+        },
+        {
+          "type": "log",
+          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
+        },
+        {
+          "type": "log",
+          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/images/hero-small-small.jpg' should write to 'images\\hero-small-small.jpg'"
+        },
+        {
+          "type": "log",
+          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
+        },
+        {
+          "type": "log",
+          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/images/hero-small.jpg' should write to 'images\\hero-small.jpg'"
+        },
+        {
+          "type": "log",
+          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
+        },
+        {
+          "type": "log",
+          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/images/hero.jpg' should write to 'images\\hero.jpg'"
+        },
+        {
+          "type": "log",
+          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
+        },
+        {
+          "type": "log",
+          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/images/placeholder-large-large.jpg' should write to 'images\\placeholder-large-large.jpg'"
+        },
+        {
+          "type": "log",
+          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
+        },
+        {
+          "type": "log",
+          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/images/placeholder-large-medium.jpg' should write to 'images\\placeholder-large-medium.jpg'"
+        },
+        {
+          "type": "log",
+          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
+        },
+        {
+          "type": "log",
+          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/images/placeholder-large-small.jpg' should write to 'images\\placeholder-large-small.jpg'"
+        },
+        {
+          "type": "log",
+          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
+        },
+        {
+          "type": "log",
+          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/images/placeholder-large.jpg' should write to 'images\\placeholder-large.jpg'"
+        },
+        {
+          "type": "log",
+          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
+        },
+        {
+          "type": "log",
+          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/images/placeholder-medium-large.jpg' should write to 'images\\placeholder-medium-large.jpg'"
+        },
+        {
+          "type": "log",
+          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
+        },
+        {
+          "type": "log",
+          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/images/placeholder-medium-medium.jpg' should write to 'images\\placeholder-medium-medium.jpg'"
+        },
+        {
+          "type": "log",
+          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
+        },
+        {
+          "type": "log",
+          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/images/placeholder-medium-small.jpg' should write to 'images\\placeholder-medium-small.jpg'"
+        },
+        {
+          "type": "log",
+          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
+        },
+        {
+          "type": "log",
+          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/images/placeholder-medium.jpg' should write to 'images\\placeholder-medium.jpg'"
+        },
+        {
+          "type": "log",
+          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
+        },
+        {
+          "type": "log",
+          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/images/placeholder-small-large.jpg' should write to 'images\\placeholder-small-large.jpg'"
+        },
+        {
+          "type": "log",
+          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
+        },
+        {
+          "type": "log",
+          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/images/placeholder-small-medium.jpg' should write to 'images\\placeholder-small-medium.jpg'"
+        },
+        {
+          "type": "log",
+          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
+        },
+        {
+          "type": "log",
+          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/images/placeholder-small-small.jpg' should write to 'images\\placeholder-small-small.jpg'"
+        },
+        {
+          "type": "log",
+          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
+        },
+        {
+          "type": "log",
+          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/images/placeholder-small.jpg' should write to 'images\\placeholder-small.jpg'"
+        },
+        {
+          "type": "log",
+          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
+        },
+        {
+          "type": "log",
+          "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/images/placeholder.jpg' should write to 'images\\placeholder.jpg'"
+        },
+        {
+          "type": "log",
+          "message": "'to' option 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\dist' determinated as 'dir'"
+        },
+        {
+          "type": "log",
           "message": "determined that 'D:/BERKAS KULIAH/S1/LEARNING DICODING/Bismillah Frontend Aman/Submission-WebExpert3/src/public/images/heros/hero.jpg' should write to 'images\\heros\\hero.jpg'"
         },
         {
@@ -7602,70 +8088,6 @@
         {
           "type": "log",
           "message": "written 'manifest.json' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\manifest.json' to compilation assets"
-        },
-        {
-          "type": "log",
-          "message": "writing 'images/hero-large.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\hero-large.jpg' to compilation assets..."
-        },
-        {
-          "type": "log",
-          "message": "written 'images/hero-large.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\hero-large.jpg' to compilation assets"
-        },
-        {
-          "type": "log",
-          "message": "writing 'images/hero-medium.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\hero-medium.jpg' to compilation assets..."
-        },
-        {
-          "type": "log",
-          "message": "written 'images/hero-medium.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\hero-medium.jpg' to compilation assets"
-        },
-        {
-          "type": "log",
-          "message": "writing 'images/hero-small.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\hero-small.jpg' to compilation assets..."
-        },
-        {
-          "type": "log",
-          "message": "written 'images/hero-small.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\hero-small.jpg' to compilation assets"
-        },
-        {
-          "type": "log",
-          "message": "writing 'images/hero.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\hero.jpg' to compilation assets..."
-        },
-        {
-          "type": "log",
-          "message": "written 'images/hero.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\hero.jpg' to compilation assets"
-        },
-        {
-          "type": "log",
-          "message": "writing 'images/placeholder-large.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\placeholder-large.jpg' to compilation assets..."
-        },
-        {
-          "type": "log",
-          "message": "written 'images/placeholder-large.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\placeholder-large.jpg' to compilation assets"
-        },
-        {
-          "type": "log",
-          "message": "writing 'images/placeholder-medium.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\placeholder-medium.jpg' to compilation assets..."
-        },
-        {
-          "type": "log",
-          "message": "written 'images/placeholder-medium.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\placeholder-medium.jpg' to compilation assets"
-        },
-        {
-          "type": "log",
-          "message": "writing 'images/placeholder-small.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\placeholder-small.jpg' to compilation assets..."
-        },
-        {
-          "type": "log",
-          "message": "written 'images/placeholder-small.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\placeholder-small.jpg' to compilation assets"
-        },
-        {
-          "type": "log",
-          "message": "writing 'images/placeholder.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\placeholder.jpg' to compilation assets..."
-        },
-        {
-          "type": "log",
-          "message": "written 'images/placeholder.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\placeholder.jpg' to compilation assets"
         },
         {
           "type": "log",
@@ -7733,6 +8155,214 @@
         },
         {
           "type": "log",
+          "message": "writing 'images/hero-large-large.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\hero-large-large.jpg' to compilation assets..."
+        },
+        {
+          "type": "log",
+          "message": "written 'images/hero-large-large.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\hero-large-large.jpg' to compilation assets"
+        },
+        {
+          "type": "log",
+          "message": "writing 'images/hero-large-medium.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\hero-large-medium.jpg' to compilation assets..."
+        },
+        {
+          "type": "log",
+          "message": "written 'images/hero-large-medium.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\hero-large-medium.jpg' to compilation assets"
+        },
+        {
+          "type": "log",
+          "message": "writing 'images/hero-large-small.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\hero-large-small.jpg' to compilation assets..."
+        },
+        {
+          "type": "log",
+          "message": "written 'images/hero-large-small.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\hero-large-small.jpg' to compilation assets"
+        },
+        {
+          "type": "log",
+          "message": "writing 'images/hero-large.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\hero-large.jpg' to compilation assets..."
+        },
+        {
+          "type": "log",
+          "message": "written 'images/hero-large.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\hero-large.jpg' to compilation assets"
+        },
+        {
+          "type": "log",
+          "message": "writing 'images/hero-medium-large.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\hero-medium-large.jpg' to compilation assets..."
+        },
+        {
+          "type": "log",
+          "message": "written 'images/hero-medium-large.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\hero-medium-large.jpg' to compilation assets"
+        },
+        {
+          "type": "log",
+          "message": "writing 'images/hero-medium-medium.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\hero-medium-medium.jpg' to compilation assets..."
+        },
+        {
+          "type": "log",
+          "message": "written 'images/hero-medium-medium.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\hero-medium-medium.jpg' to compilation assets"
+        },
+        {
+          "type": "log",
+          "message": "writing 'images/hero-medium-small.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\hero-medium-small.jpg' to compilation assets..."
+        },
+        {
+          "type": "log",
+          "message": "written 'images/hero-medium-small.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\hero-medium-small.jpg' to compilation assets"
+        },
+        {
+          "type": "log",
+          "message": "writing 'images/hero-medium.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\hero-medium.jpg' to compilation assets..."
+        },
+        {
+          "type": "log",
+          "message": "written 'images/hero-medium.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\hero-medium.jpg' to compilation assets"
+        },
+        {
+          "type": "log",
+          "message": "writing 'images/hero-small-large.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\hero-small-large.jpg' to compilation assets..."
+        },
+        {
+          "type": "log",
+          "message": "written 'images/hero-small-large.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\hero-small-large.jpg' to compilation assets"
+        },
+        {
+          "type": "log",
+          "message": "writing 'images/hero-small-medium.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\hero-small-medium.jpg' to compilation assets..."
+        },
+        {
+          "type": "log",
+          "message": "written 'images/hero-small-medium.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\hero-small-medium.jpg' to compilation assets"
+        },
+        {
+          "type": "log",
+          "message": "writing 'images/hero-small-small.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\hero-small-small.jpg' to compilation assets..."
+        },
+        {
+          "type": "log",
+          "message": "written 'images/hero-small-small.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\hero-small-small.jpg' to compilation assets"
+        },
+        {
+          "type": "log",
+          "message": "writing 'images/hero-small.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\hero-small.jpg' to compilation assets..."
+        },
+        {
+          "type": "log",
+          "message": "written 'images/hero-small.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\hero-small.jpg' to compilation assets"
+        },
+        {
+          "type": "log",
+          "message": "writing 'images/hero.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\hero.jpg' to compilation assets..."
+        },
+        {
+          "type": "log",
+          "message": "written 'images/hero.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\hero.jpg' to compilation assets"
+        },
+        {
+          "type": "log",
+          "message": "writing 'images/placeholder-large-large.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\placeholder-large-large.jpg' to compilation assets..."
+        },
+        {
+          "type": "log",
+          "message": "written 'images/placeholder-large-large.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\placeholder-large-large.jpg' to compilation assets"
+        },
+        {
+          "type": "log",
+          "message": "writing 'images/placeholder-large-medium.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\placeholder-large-medium.jpg' to compilation assets..."
+        },
+        {
+          "type": "log",
+          "message": "written 'images/placeholder-large-medium.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\placeholder-large-medium.jpg' to compilation assets"
+        },
+        {
+          "type": "log",
+          "message": "writing 'images/placeholder-large-small.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\placeholder-large-small.jpg' to compilation assets..."
+        },
+        {
+          "type": "log",
+          "message": "written 'images/placeholder-large-small.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\placeholder-large-small.jpg' to compilation assets"
+        },
+        {
+          "type": "log",
+          "message": "writing 'images/placeholder-large.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\placeholder-large.jpg' to compilation assets..."
+        },
+        {
+          "type": "log",
+          "message": "written 'images/placeholder-large.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\placeholder-large.jpg' to compilation assets"
+        },
+        {
+          "type": "log",
+          "message": "writing 'images/placeholder-medium-large.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\placeholder-medium-large.jpg' to compilation assets..."
+        },
+        {
+          "type": "log",
+          "message": "written 'images/placeholder-medium-large.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\placeholder-medium-large.jpg' to compilation assets"
+        },
+        {
+          "type": "log",
+          "message": "writing 'images/placeholder-medium-medium.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\placeholder-medium-medium.jpg' to compilation assets..."
+        },
+        {
+          "type": "log",
+          "message": "written 'images/placeholder-medium-medium.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\placeholder-medium-medium.jpg' to compilation assets"
+        },
+        {
+          "type": "log",
+          "message": "writing 'images/placeholder-medium-small.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\placeholder-medium-small.jpg' to compilation assets..."
+        },
+        {
+          "type": "log",
+          "message": "written 'images/placeholder-medium-small.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\placeholder-medium-small.jpg' to compilation assets"
+        },
+        {
+          "type": "log",
+          "message": "writing 'images/placeholder-medium.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\placeholder-medium.jpg' to compilation assets..."
+        },
+        {
+          "type": "log",
+          "message": "written 'images/placeholder-medium.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\placeholder-medium.jpg' to compilation assets"
+        },
+        {
+          "type": "log",
+          "message": "writing 'images/placeholder-small-large.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\placeholder-small-large.jpg' to compilation assets..."
+        },
+        {
+          "type": "log",
+          "message": "written 'images/placeholder-small-large.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\placeholder-small-large.jpg' to compilation assets"
+        },
+        {
+          "type": "log",
+          "message": "writing 'images/placeholder-small-medium.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\placeholder-small-medium.jpg' to compilation assets..."
+        },
+        {
+          "type": "log",
+          "message": "written 'images/placeholder-small-medium.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\placeholder-small-medium.jpg' to compilation assets"
+        },
+        {
+          "type": "log",
+          "message": "writing 'images/placeholder-small-small.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\placeholder-small-small.jpg' to compilation assets..."
+        },
+        {
+          "type": "log",
+          "message": "written 'images/placeholder-small-small.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\placeholder-small-small.jpg' to compilation assets"
+        },
+        {
+          "type": "log",
+          "message": "writing 'images/placeholder-small.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\placeholder-small.jpg' to compilation assets..."
+        },
+        {
+          "type": "log",
+          "message": "written 'images/placeholder-small.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\placeholder-small.jpg' to compilation assets"
+        },
+        {
+          "type": "log",
+          "message": "writing 'images/placeholder.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\placeholder.jpg' to compilation assets..."
+        },
+        {
+          "type": "log",
+          "message": "written 'images/placeholder.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\placeholder.jpg' to compilation assets"
+        },
+        {
+          "type": "log",
           "message": "writing 'images/heros/hero.jpg' from 'D:\\BERKAS KULIAH\\S1\\LEARNING DICODING\\Bismillah Frontend Aman\\Submission-WebExpert3\\src\\public\\images\\heros\\hero.jpg' to compilation assets..."
         },
         {
@@ -7744,7 +8374,7 @@
           "message": "finished to adding additional assets"
         }
       ],
-      "filteredEntries": 79,
+      "filteredEntries": 151,
       "debug": false
     }
   },

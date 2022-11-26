@@ -26,20 +26,8 @@
         "purpose": "any maskable"
       },
       {
-        "src": "/icons/144x144.png",
-        "sizes": "144x144",
-        "type": "image/png",
-        "purpose": "any maskable"
-      },
-      {
         "src": "/icons/192x192.png",
         "sizes": "192x192",
-        "type": "image/png",
-        "purpose": "any maskable"
-      },
-      {
-        "src": "/icons/256x256.png",
-        "sizes": "256x256",
         "type": "image/png",
         "purpose": "any maskable"
       },
